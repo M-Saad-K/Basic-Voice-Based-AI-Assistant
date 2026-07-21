@@ -2,5 +2,7 @@ cvzone
 pyserial
 vosk
 SpeechRecognition
-pygame
 google.generativeai
+sounddevice
+TTS
+pydub
