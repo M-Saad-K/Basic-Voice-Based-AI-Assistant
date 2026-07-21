@@ -1,4 +1,7 @@
-I made a Voice Based AI-assistant, called Strathbot, using Python and Gemini-3.1-flash-lite model that answers your speech questions with short speech sentences.
+## Based Voice Based AI Assistant:
+# Made this simple user speech input and audio output AI assistant, similar to an Alexa, called 'Klara'.
+
+called Strathbot, using Python and Gemini-3.1-flash-lite model that answers your speech questions with short speech sentences.
 Strathbot uses the Gemini API, Vosk Speech Model, Pyaudio, and TTS.api.
 You can find the code for the project here: https://lnkd.in/e-QUVzCV
 
