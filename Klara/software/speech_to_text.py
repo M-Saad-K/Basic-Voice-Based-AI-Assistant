@@ -2,7 +2,7 @@ import vosk
 import sounddevice as sd
 import json
 
-model = vosk.Model("/home/mr-python/Documents/Summer Plan/Electronic Projects/Basic-Voice-Based-AI-Assistant/Klara/packages/vosk-model-small-en-us-0.15")
+model = vosk.Model("The directory path of the vosk model is placed here")
 recognizer = vosk.KaldiRecognizer(model, 16000)
 
 def listen_with_vosk():
@@ -16,7 +16,7 @@ def listen_with_vosk():
         while True:
             if not q:
                 continue
-            data = q.pop(0)
+            data = q.pop(0)     
             if len(data) == 0:
                 continue
             if recognizer.AcceptWaveform(data):
