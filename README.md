@@ -1,7 +1,7 @@
 # Based Voice Based AI Assistant - Klara
 ## Overall Description:
 Made this simple user speech input and audio output AI assistant, similar to an Alexa, called 'Klara'.
-I used Python for programming this project, and Gemini-3.1-flash-lite as the model that answers your speech questions with short 2O word speech sentences.
+I used Python for programming this project, and Gemini-3.1-flash-lite as the model that answers your speech questions with short 20 word speech sentences.
 Klara uses the Gemini API, Vosk Speech Model, and TTS.api.
 
 ## Operation Description:
