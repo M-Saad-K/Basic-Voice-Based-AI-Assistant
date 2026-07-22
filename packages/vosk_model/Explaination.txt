@@ -1,3 +1,0 @@
-You will download the vosk model from here: https://alphacephei.com/vosk/models
-And replace this vosk_model folder.
-- Saad
