@@ -11,4 +11,7 @@ That text response is then passed into play_text() function in imp_text_to_speec
 
 ## Set Up Instructions:
 ### Step 1: Install the Files
-Please install the code files
+Please install the code files from the Github repo by using:
+```
+git clone
+```
