@@ -18,7 +18,7 @@ git clone https://github.com/M-Saad-K/Basic-Voice-Based-AI-Assistant.git
 ### Step 2: Install Vosk Model:
 The vosk model is used for speech to text recognition. Please delete the empty vosk folder inside ```packages``` and install the Vosk model from [The Alphacephei Website](https://alphacephei.com/vosk/models)
 
-## Step 3 : Install packages using Pip:
+## Step 3 : Install packages using Pip and Python Environment:
 Several packages are required fro the project, including...
 ```
 cvzone
@@ -31,3 +31,12 @@ TTS
 pydub
 ffmpeg
 ```
+These packages are included in ```req.txt```.
+- Create a Python Environment using Python 3.10 using
+  ```
+  python3.10 -m venv venv
+  ```
+- Use Pip to Install Requirements
+  ```
+  pip install -r req.txt
+  ```
