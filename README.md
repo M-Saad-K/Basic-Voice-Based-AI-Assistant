@@ -43,3 +43,15 @@ These packages are included in ```req.txt```.
 ### Step 4 : Create a Gemini API Key:
 Go to the [Gemini API Website](https://ai.google.dev/gemini-api/docs/api-key?authuser=1) and create a Gemini Key for the Gemini 3.1 Lite Model.
 Then paste your key into ```AI_models.py```, where it states ```"Place your API key here"```
+
+## How to Run:
+- Got into Terminal (VS code)
+- To activate the venv do this:
+```source venv/bin/activate```
+- Then go to the software folder (Linux):
+```cd software```
+- Then run the ```AI_speech_integretion.py``` file:
+```python AI_speech_integretion.py```
+- It will then set up itself in Terminal, this will take 2 minutes.
+- Then when it prints "Listening" in Terminal, you then speak.
+- To turn it off, type ```Ctrl + C``` in Terminal
