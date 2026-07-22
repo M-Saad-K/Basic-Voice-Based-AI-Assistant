@@ -11,7 +11,7 @@ That text response is then passed into play_text() function in imp_text_to_speec
 
 ## Set Up Instructions:
 ### Step 1: Install the Files
-Please install the code files from the Github repo by using:
+Please git clone the code files and folders from the Github repo by using:
 ```
-git clone
+git clone https://github.com/M-Saad-K/Basic-Voice-Based-AI-Assistant.git
 ```
