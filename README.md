@@ -18,7 +18,7 @@ git clone https://github.com/M-Saad-K/Basic-Voice-Based-AI-Assistant.git
 ### Step 2: Install Vosk Model:
 The vosk model is used for speech to text recognition. Please delete the empty vosk folder inside ```packages``` and install the Vosk model from [The Alphacephei Website](https://alphacephei.com/vosk/models)
 
-## Step 3 : Install packages using Pip and Python Environment:
+### Step 3 : Install packages using Pip and Python Environment:
 Several packages are required fro the project, including...
 ```
 cvzone
@@ -40,3 +40,6 @@ These packages are included in ```req.txt```.
   ```
   pip install -r req.txt
   ```
+### Step 4 : Create a Gemini API Key:
+Go to the [Gemini API Website](https://ai.google.dev/gemini-api/docs/api-key?authuser=1) and create a Gemini Key for the Gemini 3.1 Lite Model.
+Then paste your key into ```AI_models.py```, where it states ```"Place your API key here"```
