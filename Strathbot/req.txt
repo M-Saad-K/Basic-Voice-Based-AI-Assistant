@@ -1,7 +1,0 @@
-cvzone
-pyserial
-vosk
-SpeechRecognition
-pygame
-google.generativeai
-pyttsx3
