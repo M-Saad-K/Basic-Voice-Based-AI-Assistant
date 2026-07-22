@@ -49,7 +49,7 @@ Go to the [Gemini API Website](https://ai.google.dev/gemini-api/docs/api-key?aut
 Then paste your key into ```AI_models.py```, where it states ```"Place your API key here"```
 
 ## How to Run:
-- Got into Terminal (VS code)
+- Go into Terminal (VS code)
 - To activate the venv do this:
 ```source venv/bin/activate```
 - Then go to the software folder (Linux):
