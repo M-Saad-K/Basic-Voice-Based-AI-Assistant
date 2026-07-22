@@ -15,3 +15,6 @@ Please git clone the code files and folders from the Github repo by using:
 ```
 git clone https://github.com/M-Saad-K/Basic-Voice-Based-AI-Assistant.git
 ```
+### Step 2: Install Vosk Model:
+The vosk model is used for speech to text recognition. Please delete the empty vosk folder inside ```packages``` and install the Vosk model from [The Alphacephei Website](https://alphacephei.com/vosk/models)
+]
