@@ -6,7 +6,7 @@
 """
 from speech_to_text import listen_with_vosk
 from imp_text_to_speech import play_text
-from AI_models import generate_response
+from AI_models import generate_response, convo
 
 ## Take it in the user's voice at text
 ## Send that voice to the AI model and get a response
@@ -20,7 +20,7 @@ def main():
         if user_input:
             print("User said:", user_input)
             response = generate_response(user_input)
-            print("Strathbot:", type(response))
+            print("Klara:", type(response))
 
             play_text(response)
         else:
