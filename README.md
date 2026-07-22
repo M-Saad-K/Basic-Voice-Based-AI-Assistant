@@ -4,7 +4,7 @@ Made this simple user speech input and audio output AI assistant, similar to an 
 I used Python for programming this project, and Gemini-3.1-flash-lite as the model that answers your speech questions with short 20 word speech sentences.
 Klara uses the Gemini API, Vosk Speech Model, and TTS.api.
 
-[![Klara Demo](https://img.youtube.com/vi/Xs9eySMZGCs/maxresdefault.jpg)](https://www.youtube.com/watch?v=Xs9eySMZGCs)
+[![Klara Demo](https://img.youtube.com/vi/Xs9eySMZGCs/hqdefault.jpg)](https://www.youtube.com/watch?v=Xs9eySMZGCs)
 
 ## Operation Description:
 1. It takes the userinput from your voice through speech_to_text.py, which is handled by the vosk-model-small-en-us-0.15 through the listen_with_vosk() function.
