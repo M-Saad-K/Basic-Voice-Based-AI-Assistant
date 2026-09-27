@@ -7,6 +7,7 @@ Klara uses the Gemini API, Vosk Speech Model, and TTS.api.
 ## Video:
 
 [![Klara Demo](https://img.youtube.com/vi/Xs9eySMZGCs/hqdefault.jpg)](https://www.youtube.com/watch?v=Xs9eySMZGCs)
+<img width="3020" height="6616" alt="diagram" src="https://github.com/user-attachments/assets/7bd2ff1f-a4ba-4764-9ba3-204300d5f6cf" />
 
 ## Operation Description:
 1. It takes the userinput from your voice through speech_to_text.py, which is handled by the vosk-model-small-en-us-0.15 through the listen_with_vosk() function.
